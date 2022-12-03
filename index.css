@@ -1,0 +1,72 @@
+body{
+
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+
+
+} 
+
+.bemVindo{
+    text-align: center;
+    
+
+}
+.bemVindo p{
+    font-size: 36px;
+    color:  white;
+    font-weight: 600;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CA7900;
+    width: 70%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+.card p{
+    color: white;
+    font-size: 30px;
+}
+
+.cardButton{
+    display: flex;
+    justify-content: space-around;
+
+    width: 30%;
+
+}
+
+.cardButton button{
+    background-color: #CA7900;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: 4px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.cardButton button:hover{
+    background-color: white;
+    color: #272727;
+    transition: all 1s;
+    
+}
+ 
+.image{
+    position: absolute;
+
+}
